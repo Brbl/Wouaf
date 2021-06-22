@@ -14,5 +14,23 @@
 <jsp:include page="/WEB-INF/fragments/menu.jsp">
     <jsp:param name="menu" value="menu"/>
 </jsp:include>
+<div class="container-contact">
+    <form>
+        <label for="fname">Prénom</label>
+        <input type="text" id="fname" name="firstname" placeholder="Entrez votre prénom...">
+        <label for="lname">Nom de famille</label>
+        <input type="text" id="lname" name="lastname" placeholder="Entrez votre nom...">
+        <label for="why">Pourquoi nous contacter-vous ?</label>
+        <select id="why" name="why">
+            <option value="dog">Mon chien m'insulte</option>
+            <option value="canada">Je souhaite postule chez vous</option>
+            <option value="usa">Je rencontre des soucis sur la plateforme</option>
+        </select>
+        <label for="subject">Message</label>
+        <textarea id="subject" name="subject" placeholder="Votre message..." style="height:200px"></textarea>
+        <input type="submit" value="Envoyer">
+    </form>
+</div>
+
 </body>
 </html>

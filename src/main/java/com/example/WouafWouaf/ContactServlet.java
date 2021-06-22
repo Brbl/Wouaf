@@ -9,7 +9,7 @@ import java.io.IOException;
 public class ContactServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        RequestDispatcher rd = this.getServletContext().getRequestDispatcher("/WEB-INF/apropos.jsp");
+        RequestDispatcher rd = this.getServletContext().getRequestDispatcher("/WEB-INF/contact.jsp");
         rd.forward(request, response);
     }
 

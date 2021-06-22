@@ -14,8 +14,14 @@
         <h1>Let's your dog talk</h1>
         <p>Parler avec votre meilleur ami était votre rêve, WouafWouaf vous aide à l'accomplir</p>
         <div class="button-app">
-            <button>Android</button>
-            <button>IOS</button>
+            <a href="#" class="button-link" role="button">
+                <img class="logo-store" src="images/appstore.png" />
+                Android
+            </a>
+            <a href="#" class="button-link" role="button">
+                <img class="logo-store" src="images/playstore.png" />
+                IOS
+            </a>
         </div>
     </div>
     <div class="right-side">

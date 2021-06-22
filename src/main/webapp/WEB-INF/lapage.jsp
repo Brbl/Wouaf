@@ -14,6 +14,25 @@
 <jsp:include page="/WEB-INF/fragments/menu.jsp">
     <jsp:param name="menu" value="menu"/>
 </jsp:include>
-<h1>Test</h1>
+<div class="container-lapage">
+<h1>La 5ème page</h1>
+    <div class="cards">
+        <div class="inline-photo">
+            <img src="${pageContext.request.contextPath}/images/monitor.png" width="250px">
+            <h2 class="title">Wouaf Wouaf</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        </div>
+        <div class="inline-photo">
+            <img src="${pageContext.request.contextPath}/images/monitor.png" width="250px">
+            <h2 class="title">Wouaf Wouaf</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        </div>
+        <div class="inline-photo">
+            <img src="${pageContext.request.contextPath}/images/monitor.png" width="250px">
+            <h2 class="title">Wouaf Wouaf</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        </div>
+    </div>
+</div>
 </body>
 </html>

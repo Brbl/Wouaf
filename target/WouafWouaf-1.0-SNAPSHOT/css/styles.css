@@ -62,8 +62,11 @@ li a:hover {
     flex-direction: column;
     justify-content: center;
 }
-
-button {
+.button-app{
+    width: 700px;
+    display: flex;
+}
+.button-link {
     background-color: #000;
     border: none;
     color: white;
@@ -72,12 +75,26 @@ button {
     padding: 16px 32px;
     font-size: 16px;
     text-align: center;
-    display: inline-block;
-    width: 130px;
+    width: 200px;
     margin-top: 20px;
     margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-decoration: none;
+
 }
 
 .section-recrutement {
     padding: 0 48px;
+}
+.logo-store{
+    height: 40px;
+    width: 40px;
+}
+.container-about{
+    width: 50%;
+}
+.container-contact{
+    background-color: blue;
 }

@@ -16,11 +16,11 @@
         <div class="button-app">
             <a href="#" class="button-link" role="button">
                 <img class="logo-store" src="images/appstore.png" />
-                Android
+                Get it on App Store
             </a>
             <a href="#" class="button-link" role="button">
                 <img class="logo-store" src="images/playstore.png" />
-                IOS
+                Get it on Play Store
             </a>
         </div>
     </div>

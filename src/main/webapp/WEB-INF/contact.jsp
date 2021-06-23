@@ -28,7 +28,9 @@
         </select>
         <label for="subject">Message</label>
         <textarea id="subject" name="subject" placeholder="Votre message..." style="height:200px"></textarea>
-        <input type="submit" value="Submit">
+
+        <input type="submit" value="Envoyer">
+
     </form>
 </div>
 

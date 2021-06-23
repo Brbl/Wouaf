@@ -24,14 +24,7 @@
         avec Nathan son compère de toujours, et après 10 de recherches et de développement, Waf-Waf était prêt. Désormais, Youki ne vole plus les chaussons.
 
     </p>
-    <div class="presentation">
-        <div class="simon">
 
-        </div>
-        <div class="nathan">
-
-        </div>
-    </div>
 
 </div>
 </body>

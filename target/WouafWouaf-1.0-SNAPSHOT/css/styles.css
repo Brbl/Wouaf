@@ -67,11 +67,10 @@ li a:hover {
 .button-app{
     width: 700px;
     display: flex;
-<<<<<<< HEAD
+
     justify-content: center;
     align-items: center;
-=======
->>>>>>> 29922d5c8eae0f0719e0b9394f08e7755c26dff4
+
 }
 .button-link {
     background-color: #000;
@@ -82,24 +81,21 @@ li a:hover {
     padding: 5px 20px;
 
     text-align: center;
-<<<<<<< HEAD
+
     width: 280px;
-=======
-    width: 200px;
->>>>>>> 29922d5c8eae0f0719e0b9394f08e7755c26dff4
+
+
+
     margin-top: 20px;
     margin-right: 20px;
     display: flex;
     justify-content: center;
-<<<<<<< HEAD
+
     align-items: center;
     text-decoration: none;
     font-size: 20px;
     font-family: Ubuntu, serif;
-=======
-    align-content: center;
-    text-decoration: none;
->>>>>>> 29922d5c8eae0f0719e0b9394f08e7755c26dff4
+
 
 }
 
@@ -109,18 +105,17 @@ li a:hover {
 .logo-store{
     height: 40px;
     width: 40px;
-<<<<<<< HEAD
+
     margin-right: 20px;
-=======
->>>>>>> 29922d5c8eae0f0719e0b9394f08e7755c26dff4
+
 }
 .container-about{
     width: 50%;
 }
-<<<<<<< HEAD
-.container-contact{
+
+.container-contact {
     background-color: blue;
-=======
+}
 
 input[type=text], select, textarea {
     width: 100%;
@@ -182,5 +177,5 @@ label {
 
 .inline-photo p {
     text-align: center;
->>>>>>> 29922d5c8eae0f0719e0b9394f08e7755c26dff4
+
 }
